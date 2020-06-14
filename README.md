@@ -1,29 +1,12 @@
 # city-time
 
-## Project setup
+## Setup
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Visit `localhost:8080` to view the project.
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## About
+I built this is a minimalist navigation bar with animated sliding bars that indicate which nav item has been selected. The sliding underline bars resize based on the size of the nav item, and move upon window resize to stay on the selected city. Selecting a city also shows the current time in that city.
